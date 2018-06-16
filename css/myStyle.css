@@ -1,0 +1,55 @@
+.btn-width
+{
+	width: 25%
+}
+* 
+{
+	font-family: NanumGothic, 'Malgun Gothic';
+}
+
+body {
+	padding-top: 50px;
+	background-color:silver;
+}
+.btn-full {
+	width: 100%;
+}
+.second-key{
+	color:gray;
+	
+}
+#rightscreen span.sec{display:none}
+#rightscreen .shift span{display:none}
+#rightscreen .shift span.sec{display:inline}
+
+#matrixhelper {
+	width: 134px;
+	height: 134px;
+	position: fixed;
+	top: 100px;
+	left: 410px;
+	display: block;
+	border: 1px solid #808080;
+	background-color: #fff;
+	padding: 5px;
+	text-align: center;
+	border-radius: 5px;
+	display: none;
+	z-index: 12354;
+}
+
+#matrixhelper span{display:inline-block;width:20px;height:20px;background-color:#f0f0f0;margin:2px;float:left}
+#matrixhelper span.m{background-color:#f0f0ff}
+#matrixhelper span.v{background-color:#f0fff0}
+#matrixhelper span.hover{background-color:#c0c0c0}
+#matrixhelper span.m.hover{background-color:#c0c0cc}
+#matrixhelper span.v.hover{background-color:#c0ccc0}
+
+.choiceControl
+{
+	display: none;
+}
+
+.slider-selection {
+	background: blue;
+}
